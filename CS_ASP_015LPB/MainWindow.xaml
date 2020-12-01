@@ -1,0 +1,15 @@
+﻿<Window x:Class="CS_ASP_015LPB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CS_ASP_015LPB"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="timeSpanLabel" Content="My Time Span" HorizontalAlignment="Left" Margin="182,85,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="resultLabel" Content="[Result Label]" HorizontalAlignment="Left" Margin="187,143,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="Ok, Go!" HorizontalAlignment="Left" Margin="182,197,0,0" VerticalAlignment="Top" Width="109" Click="button1_Click"/>
+
+    </Grid>
+</Window>
